@@ -1,0 +1,1 @@
+bash 01_setup_ubuntu.sh  # скачает исходники Vulpy в source/vulpy/

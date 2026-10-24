@@ -1,0 +1,12 @@
+{
+  "target_repository": "https://github.com/fportantier/vulpy",
+  "target_branch": "master",
+  "analysis_date": "2026-10-24",
+  "assessment_scope": "bad/ (основная часть ручного анализа)",
+  "source_method": "Открытые исходники проекта; статический просмотр строк; без развёртывания",
+  "automated_scan": "Не выполнялся до запуска 02_scan.sh в Ubuntu",
+  "risk_scale": "Экспертная относительная градация, не CVSS",
+  "license": "MIT (по репозиторию)",
+  "upstream_commit": "Заполняется 01_setup_ubuntu.sh при клонировании",
+  "disclaimer": "Уязвимости намеренные; обучение. Не выставлять приложение в Интернет."
+}

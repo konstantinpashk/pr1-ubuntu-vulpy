@@ -1,0 +1,68 @@
+{
+  "scanner": "Bandit",
+  "generated_at_utc": "2026-10-24T12:20:03.741914+00:00",
+  "profiles": {
+    "bad": {
+      "total": 22,
+      "by_severity": {
+        "HIGH": 2,
+        "MEDIUM": 14,
+        "LOW": 6,
+        "UNDEFINED": 0
+      },
+      "by_confidence": {
+        "HIGH": 4,
+        "MEDIUM": 15,
+        "LOW": 3,
+        "UNDEFINED": 0
+      },
+      "metrics": {
+        "CONFIDENCE.HIGH": 4,
+        "CONFIDENCE.LOW": 3,
+        "CONFIDENCE.MEDIUM": 15,
+        "CONFIDENCE.UNDEFINED": 0,
+        "SEVERITY.HIGH": 2,
+        "SEVERITY.LOW": 6,
+        "SEVERITY.MEDIUM": 14,
+        "SEVERITY.UNDEFINED": 0,
+        "loc": 495,
+        "nosec": 0,
+        "skipped_tests": 0
+      },
+      "input_json": "reports/bandit_bad.json",
+      "output_csv": "datasets/bandit_bad.csv",
+      "errors": []
+    },
+    "good": {
+      "total": 11,
+      "by_severity": {
+        "HIGH": 2,
+        "MEDIUM": 5,
+        "LOW": 4,
+        "UNDEFINED": 0
+      },
+      "by_confidence": {
+        "HIGH": 1,
+        "MEDIUM": 9,
+        "LOW": 1,
+        "UNDEFINED": 0
+      },
+      "metrics": {
+        "CONFIDENCE.HIGH": 1,
+        "CONFIDENCE.LOW": 1,
+        "CONFIDENCE.MEDIUM": 9,
+        "CONFIDENCE.UNDEFINED": 0,
+        "SEVERITY.HIGH": 2,
+        "SEVERITY.LOW": 4,
+        "SEVERITY.MEDIUM": 5,
+        "SEVERITY.UNDEFINED": 0,
+        "loc": 567,
+        "nosec": 0,
+        "skipped_tests": 0
+      },
+      "input_json": "reports/bandit_good.json",
+      "output_csv": "datasets/bandit_good.csv",
+      "errors": []
+    }
+  }
+}
